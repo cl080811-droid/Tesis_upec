@@ -1,0 +1,12 @@
+model: runs/detect/train/weights/best.pt
+confidence: 0.45
+tracker: bytetrack.yaml
+cattle_class_id: 0
+sampling_interval_seconds: 1.0
+roi: []
+crowding_threshold: null
+
+output:
+  video: results/predictions/tracked.mp4
+  csv: results/metrics/occupancy.csv
+  plot: results/plots/occupancy.png
