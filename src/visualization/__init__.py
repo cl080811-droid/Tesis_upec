@@ -1,0 +1,1 @@
+"""Visualización de resultados."""
